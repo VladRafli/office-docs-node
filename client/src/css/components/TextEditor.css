@@ -1,0 +1,15 @@
+#editor .ql-container {
+    @apply flex justify-center border-0;
+}
+
+#editor .ql-editor {
+    @apply w-[8.5in] min-h-[11in] p-[1in] my-8 shadow-xl bg-white print:w-[6.5in] print:h-[9in] print:p-0 print:m-0 print:shadow-none print:self-start;
+}
+
+#editor .ql-toolbar {
+    @apply top-0 flex justify-center sticky border-0 shadow-xl bg-gray-100 z-[1] print:hidden;
+}
+
+@page {
+    margin: 1in;
+}
